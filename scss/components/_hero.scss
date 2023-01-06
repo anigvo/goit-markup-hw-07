@@ -1,0 +1,29 @@
+.hero {
+    background-color: $hero-overlay-color;
+    background-image: linear-gradient(to right, $hero-background-color, $hero-background-color), url("../images/herobackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 200px 0;
+    max-width: 1600px;
+    height: 600px;
+
+    &__title {
+            color: $secondary-text-color;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            margin-right: auto;
+            margin-left: auto;
+            max-width: 696px;
+        }
+
+}
+
